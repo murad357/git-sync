@@ -40,7 +40,8 @@ git fetch source '+refs/heads/*:refs/heads/*' --update-head-ok
 # Print out all branches
 git --no-pager branch -a -vv
 
-cp -r ./lms/build ./build
+echo pwd
+cp -r ~/lms/build ~/build
 git add .
 git commit "moved build"
 
